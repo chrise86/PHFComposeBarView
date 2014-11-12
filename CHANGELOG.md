@@ -1,5 +1,10 @@
 # Changelog
 
+
+## v2.0.1.1
+
+- [FIX] https://github.com/fphilipe/PHFComposeBarView/issues/41
+
 ## v2.0.1
 
 - [IMPROVEMENT] Add support for nib.
