@@ -620,14 +620,11 @@ static CGFloat kTextViewToSuperviewHeightDelta;
 }
 
 - (void)setupDelegateChainForTextView {
-    //fix - https://github.com/fphilipe/PHFComposeBarView/issues/41
     PHFDelegateChain *delegateChain = [PHFDelegateChain delegateChainWithObjects: [self delegate], nil];
-    //    PHFDelegateChain *delegateChain = [PHFDelegateChain delegateChainWithObjects:self, [self delegate], nil];
     [self setDelegateChain:delegateChain];
-    //    [[self textView] setDelegate:(id<UITextViewDelegate>)delegateChain];
-    
     [[self textView] setDelegate:self];
 }
+
 - (CGFloat)textHeight {
     UITextView *textView = [self textView];
     CGFloat height = [textView sizeThatFits:CGSizeMake([textView frame].size.width, FLT_MAX)].height;

@@ -1,7 +1,7 @@
 # Changelog
 
 
-## v2.0.1.1
+## v2.0.2
 
 - [FIX] https://github.com/fphilipe/PHFComposeBarView/issues/41
 

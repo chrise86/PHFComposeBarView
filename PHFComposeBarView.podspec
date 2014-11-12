@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = 'PHFComposeBarView'
-  s.version        = ‘2.0.1.1’
+  s.version        = '2.0.2'
   s.summary        = 'A precise reconstruction of the compose bar from iOS 7 Messages.app.'
   s.description    = <<-DESC
 The compose bar from the messages application on iOS is often replicated in
